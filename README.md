@@ -1,6 +1,6 @@
 # ScrollLayout
 
-Scrollable Layouts for Vaadin Flow
+Scrollable Layouts for Vaadin Flow: **VerticalScrollLayout** and **HorizontalScrollLayout**
 
 ## How to install (maven)
 ````
