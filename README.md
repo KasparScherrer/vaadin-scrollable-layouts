@@ -21,19 +21,19 @@ Scrollable Layouts for Vaadin Flow: **VerticalScrollLayout** and **HorizontalScr
 ## How to use
 Use the classes just the same as you would use a VerticalLayout / HorizontalLayout:
 ````
-VerticalScrollLayout scrollable = new VerticalScrollLayout(new TextField("one"), new TextField("two"), new TextField("three"));
+VerticalScrollLayout layout = new VerticalScrollLayout(new TextField("one"), new TextField("two"), new TextField("three"));
 
 // or
 
-VerticalScrollLayout scrollable = new VerticalScrollLayout();
-scrollable.add(new TextField("one"), new TextField("two"), new TextField("three"));
+VerticalScrollLayout layout = new VerticalScrollLayout();
+layout.add(new TextField("one"), new TextField("two"), new TextField("three"));
 
 // or
 
-VerticalScrollLayout scrollable = new VerticalScrollLayout();
-scrollable.add(new TextField("one"));
-scrollable.add(new TextField("two"));
-scrollable.add(new TextField("three"));
+VerticalScrollLayout layout = new VerticalScrollLayout();
+layout.add(new TextField("one"));
+layout.add(new TextField("two"));
+layout.add(new TextField("three"));
 
 // or 
 
