@@ -2,7 +2,7 @@
 
 Scrollable Layouts for Vaadin Flow
 
-## How to install
+## How to install (maven)
 ````
 <dependency>
    <groupId>ch.carnet.kasparscherrer</groupId>
