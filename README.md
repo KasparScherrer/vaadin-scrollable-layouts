@@ -3,7 +3,20 @@
 Scrollable Layouts for Vaadin Flow
 
 ## How to install
-coming up..
+````
+<dependency>
+   <groupId>ch.carnet.kasparscherrer</groupId>
+   <artifactId>scrolllayout</artifactId>
+   <version>2.0.0</version>  <!-- for Vaadin 10: use version 1.0.0 -->
+</dependency>
+````
+````
+<repository>
+   <id>vaadin-addons</id>
+   <url>http://maven.vaadin.com/vaadin-addons</url>
+</repository>
+
+````
 
 ## How to use
 ````

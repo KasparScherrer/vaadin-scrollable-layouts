@@ -64,10 +64,8 @@ public class HorizontalScrollLayout extends HorizontalLayout {
         content.removeAll();
     }
 
-    /*
-    // doesn't exist in Vaadin 10.0.8 yet
     @Override
     public void addComponentAsFirst(Component component) {
         content.addComponentAtIndex(0, component);
-    }*/
+    }
 }
