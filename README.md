@@ -1,18 +1,25 @@
 # ScrollLayout
 
-Vaadin 10 Java integration of https://github.com/PolymerElements/paper-slider
+Scrollable Layouts for Vaadin Flow
 
-## Development instructions
+## How to install
+coming up..
 
-Starting the test/demo server:
-```
-mvn jetty:run
-```
+## How to use
+````
+// Vertical
+VerticalScrollLayout verticalScrollLayout = new VerticalScrollLayout();
+for(int i = 0; i < 30;){
+    TextField textField = new TextField("Test "+ ++i);
+    textField.setWidth("100%");
+    verticalScrollLayout.add(textField);
+}
+verticalScrollLayout.setHeight("300px");
 
-This deploys demo at http://localhost:8080
-
-### Branching information
-
-* `master` the latest version of the starter, using latest platform snapshot
-* `V10` the version for Vaadin 10
-* `V11` the version for Vaadin 11
+// Horizontal
+HorizontalScrollLayout horizontalScrollLayout = new HorizontalScrollLayout();
+for(int i = 0; i < 30;){
+    horizontalScrollLayout.add(new TextField("Test "+ ++i));
+}
+horizontalScrollLayout.setHeight("100px");
+````
