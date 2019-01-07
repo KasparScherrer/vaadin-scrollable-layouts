@@ -66,4 +66,9 @@ public class VerticalScrollLayout extends VerticalLayout {
     public void addComponentAsFirst(Component component) {
         content.addComponentAtIndex(0, component);
     }
+
+    @Override
+    public void addComponentAtIndex(int index, Component component){
+        content.addComponentAtIndex(index, component);
+    }
 }
